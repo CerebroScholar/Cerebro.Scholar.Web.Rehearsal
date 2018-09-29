@@ -1,0 +1,10 @@
+{
+  "name": "Cerebro.Scholar.Web.Rehearsal",
+  "version": "0.0.1",
+  "dependencies": {
+    "sass": "^1.14.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
