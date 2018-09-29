@@ -10,14 +10,31 @@
     <div id="app">
         <div id="landing-page">
             <header id="logo">
+                <!--component-->
                 <img src="./logo.svg" alt="logo for Cerebro.Scholar" class="logo">
             </header>
             <section id="selected-tag-list">
+                <!--component-->
                 <ol class="selected-tag-list">
+                    <!--component-->
                     <li class="selected-tag-list">machine learning<button class="delete">x</button></li>
                     <li class="selected-tag-list">natural language processing<button class="delete">x</button></li>
                     <li class="selected-tag-list suggested">deep learning<button class="delete">x</button></li>
                 </ol>
+            </section>
+            <section id="search-bar">
+                <main class="search-bar">
+                    <label class="search-bar">
+                        <img src="./search-icon.svg" alt="search bar icon" class="search-bar">
+                        <input type="text" class="search-bar">
+                    </label>
+                    <footer class="search-bar-suggested">
+                        <span class="search-bar">suggested</span>
+                    </footer>
+                </main>
+                <button class="delete">
+                    X
+                </button>
             </section>
         </div>
     </div>

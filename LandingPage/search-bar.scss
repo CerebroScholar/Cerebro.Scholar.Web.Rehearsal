@@ -1,0 +1,57 @@
+@import "../util.scss";
+
+section#search-bar {
+  @include elevation(1);
+  width: calc(100% - 2em);
+  height: 1.5em;
+  padding: 0.5em 1em 0.5em 1em;
+
+  display: flex;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+
+  main.search-bar {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+
+    label.search-bar {
+      display: flex;
+      height: 1.5em;
+
+      img.search-bar {
+        height: 1.5em;
+        vertical-align: middle;
+      }
+
+      input.search-bar {
+        border: 0;
+        font-size: 1em;
+        margin-left: 1em;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    footer.search-bar-suggested {
+      color: #999999;
+    }
+  }
+
+  button.delete {
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    margin-left: auto;
+
+    &:hover {
+      background-color: #b5b5b5;
+      color: white;
+    }
+  }
+}
