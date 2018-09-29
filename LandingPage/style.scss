@@ -28,9 +28,9 @@ div#landing-page {
   }
 }
 
-@import "navigation";
-@import "logo";
-@import "selected-tag-list";
-@import "search-bar";
-@import "search-bar-auto-complete";
-@import "related-tag-list";
+@import "./styles/navigation";
+@import "./styles/logo";
+@import "./styles/selected-tag-list";
+@import "./styles/search-bar";
+@import "./styles/search-bar-auto-complete";
+@import "./styles/related-tag-list";
