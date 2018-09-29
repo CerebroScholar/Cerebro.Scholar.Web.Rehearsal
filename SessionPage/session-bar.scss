@@ -1,0 +1,68 @@
+@import "../styles/SelectedTagList";
+
+
+header#session-bar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+
+  background-color: #333333;
+
+  label.session-bar {
+    color: white;
+
+    width: 15%;
+
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 1em;
+  }
+
+  section#selected-tag-list {
+    @include SelectedTagList;
+
+    padding: 0;
+    width: 70vw;
+    justify-self: center;
+
+    ol.selected-tag-list {
+      margin-top: 0;
+      align-items: center;
+
+      li.selected-tag-list {
+        background-color: white;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  nav.session-bar-nav {
+    color: white;
+    flex-grow: 1;
+
+    ul.session-bar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      padding: 0;
+
+      li.session-bar-nav {
+        list-style: none;
+
+        button.favorite {
+          background-color: #333;
+          border: 0;
+          color: white;
+          cursor: pointer;
+          font-size: 1em;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
