@@ -18,6 +18,14 @@ div#landing-page {
   // align horizontal center
   display: flex;
   align-items: center;
+
+  hr.search-bar-divider {
+    width: 100%;
+    height: 1px;
+    background: #333;
+    border: 0;
+    margin-bottom: 0.75em;
+  }
 }
 
 @import "logo";
