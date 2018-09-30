@@ -13,6 +13,8 @@
 }
 
 @mixin card() {
+  @include elevation(1);
+
   width: calc(70vw - 2rem);
   margin: 2rem auto;
 
