@@ -1,0 +1,33 @@
+@import "../util";
+
+section#my-info {
+  @include elevation(1);
+  @include card;
+
+  label.my-info {
+    display: flex;
+    width: 100%;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    span.my-info {
+      width: 30%;
+    }
+
+    input.my-info {
+      width: 70%;
+
+      border: 0;
+      border-bottom: 0.5px solid #333;
+    }
+
+    &:first-of-type {
+      margin-top: 2rem;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
