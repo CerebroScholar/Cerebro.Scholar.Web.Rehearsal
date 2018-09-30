@@ -1,6 +1,12 @@
 article.slide {
   width: 100vw;
   height: 100vh;
+
+  p {
+    b.highlight {
+      color: tomato;
+    }
+  }
 }
 
 article.first {
