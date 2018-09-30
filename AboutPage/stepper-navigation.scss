@@ -1,0 +1,28 @@
+nav.stepper-navigation {
+  position: fixed;
+  top: 37.5vh;
+  left: 5vw;
+
+  ul.stepper-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 25vh;
+    margin: 0;
+
+    li.stepper-navigation {
+      list-style: none;
+      background-color: black;
+      opacity: 0.5;
+
+      border-radius: 0.75em;
+      width: 0.75em;
+      height: 0.75em;
+    }
+
+    li.selected {
+      opacity: 1;
+    }
+  }
+}
