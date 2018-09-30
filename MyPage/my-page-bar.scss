@@ -1,0 +1,40 @@
+header#my-page-bar {
+  background-color: #333;
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+
+  .my-page-bar {
+    border: 0;
+
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0.5rem;
+  }
+
+  h1.my-page-bar {
+    width: 15vw;
+  }
+
+  p.my-page-bar {
+    width: 70vw;
+    justify-self: center;
+  }
+
+  button.my-page-bar {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+
+    width: 7.5vw;
+
+    &:hover {
+      background-color: #999;
+      color: #111;
+    }
+  }
+}
